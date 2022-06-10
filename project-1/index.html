@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Ironwood Stables</title>
+    <meta charset="utf-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+     <!-- Latest compiled and minified CSS -->
+    <link href="bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <link href="custom.css" rel="stylesheet">
+
+    <!-- Latest compiled JavaScript -->
+    <script src="bootstrap/dist/js/bootstrap.bundle.min.js"></script> 
+  </head>
+
+  <body>
+
+    <div class="container-fluid has-bg-img text-center pt-5 text-white" id="title">
+        <!-- <img class="bg-img" src="assets/homeimage.jpg" alt="horse"> -->
+        <p class="display-1 ">Ironwood Stables</p>
+    </div>
+
+    <div class="container-fluid p-4">
+        <p class="h2 display-4 text-center pt-4"><u>About Us</u></p>
+        <p class="px-5 mx-5 pt-5 h3">We are a small team of coaches and horses dedicated to making horseback riding
+            more accessible to those looking for a more relaxed experience or with busy schedules.
+        </p>
+        <p class="px-5 mx-5 pt-3 pb-5 h3">
+            Our programmes are suitable for both adults and children, those who want to compete
+            or those who just want to have fun. Our coaches will adjust to your needs.
+        </p>
+    </div>
+
+    <div class="container-fluid text-center p-4 bg-primary ">
+        <p class="display-4 pt-4 text-white"><u>Our Services</u></p>
+
+        <div class="container-fluid d-flex justify-content-center">
+            <div class="card p-3 m-3" style="width:350px">
+                <img class="card-img-top" src="assets/lessoncard.jpg" alt="kid on horse">
+                <div class="card-body">
+                    <h4 class="card-title">Riding School</h4>
+                    <p class="card-text">Our riding school is open to all ages, skill levels and ambitions. We specialize
+                        in all three major english riding disciplines, dressage, jumpers and hunters to develop a well rounded
+                        rider. </p>
+                    <a href="" class="btn btn-primary">Read more</a>
+                </div>
+            </div>
+            <div class="card p-3 my-3" style="width:350px; margin-left:5%; margin-right:5%">
+                <img class="card-img-top" src="assets/boardcard.jpg" alt="kid on horse">
+                <div class="card-body">
+                    <h4 class="card-title">Boarding</h4>
+                    <p class="card-text">Our facilities include a heated and cooled tack up area, an infrared heated 
+                        medium-sized indoor arena, a large outdoor arena with a full set of jumps, 5 paddocks and more 
+                        for the comfort of your horse.</p>
+                    <a href="" class="btn btn-primary">Read more</a>
+                </div>
+            </div>
+            <div class="card p-3 m-3" style="width:350px">
+                <img class="card-img-top" src="assets/leasecard.jpg" alt="kid on horse">
+                <div class="card-body">
+                    <h4 class="card-title">Leasing</h4>
+                    <p class="card-text">We offer some horses for half leases to students who want to advance in their 
+                        riding career. Leasing is a great way to develop a bond with a horse and is a natural step forward
+                        in owning your own horse. 
+                    </p>
+                    <a href="" class="btn btn-primary">Read more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid d-flex justify-content-center p-4 bg-secondary">
+        <div class="m-4">
+            <h5>Address</h5>
+            <p>123 Road Street <br>
+                Ottawa, ON <br>
+                K1R 1A2 <br>
+            </p>
+            <h5 class="pt-5">Operating hours</h5>
+            <p>Monday-Friday: 8am-8pm<br>
+                Saturday-Sunday: 8am-9pm<br>
+            </p>
+        </div>
+
+        <div id="map-container-google-1" class="z-depth-1-half map-container" style="height: 200px; width:400px">
+            <iframe src="https://maps.google.com/maps?q=Ottawa&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0"
+              style="border:0" allowfullscreen></iframe>
+        </div>
+
+
+        <div class="m-4">
+            <h5>Contact Information</h5>
+            <p>613-123-4567 <br>
+                info@ironwood.ca
+            </p>
+            <div class="pt-5">
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-twitter me-3 mt-5" viewBox="0 0 16 16">
+                    <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-facebook me-3 mt-5" viewBox="0 0 16 16">
+                    <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-envelope-fill me-3 mt-5" viewBox="0 0 16 16">
+                    <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z"/>
+                </svg>
+            </div>
+        </div>
+
+    </div>
+</div>
+    
+    </body>
+</html>
