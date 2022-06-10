@@ -12,11 +12,39 @@
   background-position: center;
 }
 
+#title-board {
+  height: 600px;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("assets/boardimage.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+#title-lease {
+  height: 600px;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("assets/leaseimage.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
 #title-text {
   padding-top: 180px !important;
   user-select: none;
 }
 
+.col-lg {
+  border-style: solid;
+  border-color: #4f452f;
+  border-width:1px;
+  border-radius: 5px;
+}
+
+.col-sm {
+  border-style: solid;
+  border-color: #4f452f;
+
+  border-width:1px;
+  border-radius: 5px;
+}
 
 
 .map-container{
