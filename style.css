@@ -6,16 +6,18 @@
     padding-top: 230px !important;
 }
 
+
+
 .map-container{
     overflow:hidden;
-    padding-bottom:30.25%;
+    /* padding-bottom: 20px; */
     position:relative;
-    height:0;
+    height: 300px;
   }
-  .map-container iframe{
-    left:0;
-    top:0;
-    height:100%;
-    width:100%;
-    position:absolute;
-  }
+.map-container iframe{
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
+}
