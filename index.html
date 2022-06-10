@@ -17,9 +17,41 @@
 
   <body>
 
-    <div class="container-fluid has-bg-img text-center pt-5 text-white" id="title">
+    <div class="container-fluid text-center text-white" id="title">
         <!-- <img class="bg-img" src="assets/homeimage.jpg" alt="horse"> -->
-        <p class="display-1 ">Ironwood Stables</p>
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">
+                <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" width="40px" height="40px" preserveAspectRatio="xMidYMid meet" viewBox="0 0 256 256"><path fill="white" d="M136 100a12 12 0 1 1-12-12a12 12 0 0 1 12 12Zm96 29.5A104.4 104.4 0 0 1 130.1 232H128a103.5 103.5 0 0 1-69.3-26.5a8 8 0 0 1-.7-11.3a8 8 0 0 1 11.3-.6A91.1 91.1 0 0 0 90 207.4l26.2-36.6c-23-10.4-47.9-8.5-61.6-6.2a31.6 31.6 0 0 1-31.3-12.8L9.5 132.7a7.8 7.8 0 0 1-1.3-6.3a8 8 0 0 1 3.6-5.2L112 59.5V32a8 8 0 0 1 8-8h8a104 104 0 0 1 104 105.5Zm-16-.2A87.9 87.9 0 0 0 128 40v24a7.8 7.8 0 0 1-3.8 6.8l-96.7 59.5l8.8 12.1a15.8 15.8 0 0 0 15.7 6.4c16.9-2.8 49.3-5.1 78 11.1a39.9 39.9 0 0 0 38-39.9a8 8 0 0 1 16 0a56.1 56.1 0 0 1-51.8 55.8l-26.6 37.3a88.7 88.7 0 0 0 24.2 2.9a88.3 88.3 0 0 0 86.2-86.7Z"/></svg>
+              </a>
+              <button class="navbar-toggler navbar-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon" ></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active h4" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link h5 dropdown-toggle" href="lessons.html" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Riding School</a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="#">Prices</a>
+                        <a class="dropdown-item" href="#">Instructors</a>
+                        <a class="dropdown-item" href="#">Horses</a>
+                        <a class="dropdown-item" href="#">Book a lesson</a>
+                    </div>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link h5" href="#">Boarding</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link h5" href="#">Leasing</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        <p id="title-text" class="display-1 pt-5">Ironwood Stables</p>
     </div>
 
     <div class="container-fluid p-4">
@@ -44,17 +76,17 @@
                     <p class="h5 card-text">Our riding school is open to all ages, skill levels and ambitions. We specialize
                         in all three major english riding disciplines, dressage, jumpers and hunters to develop a well rounded
                         rider. </p>
-                    <a href="" class="btn btn-primary">Read more</a>
+                    <a href="lessons.html" class="btn btn-primary mt-3">Read more + Prices</a>
                 </div>
             </div>
-            <div class="card p-3 my-3" style="width:350px; margin-left:5%; margin-right:5%">
+            <div class="card p-3 my-3 " style="width:350px; margin-left:5%; margin-right:5%">
                 <img class="card-img-top" src="assets/boardcard.jpg" alt="kid on horse">
                 <div class="card-body">
                     <h2 class="card-title">Boarding</h2>
                     <p class="h5 card-text">Our facilities include a heated and cooled tack up area, an infrared heated 
                         medium-sized indoor arena, a large outdoor arena with a full set of jumps, 5 paddocks and more 
                         for the comfort of your horse.</p>
-                    <a href="" class="btn btn-primary">Read more</a>
+                    <a href="" class="btn btn-primary mt-3">Read more + Prices</a>
                 </div>
             </div>
             <div class="card p-3 m-3" style="width:350px">
@@ -65,7 +97,7 @@
                         riding career. Leasing is a great way to develop a bond with a horse and is a natural step forward
                         in owning your own horse. 
                     </p>
-                    <a href="" class="btn btn-primary">Read more</a>
+                    <a href="" class="btn btn-primary mt-3">Read more + Prices</a>
                 </div>
             </div>
         </div>
