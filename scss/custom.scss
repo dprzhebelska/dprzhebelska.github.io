@@ -5,3 +5,70 @@ $theme-colors: (
 
 @import "../bootstrap/scss/bootstrap";
 
+/* Using SCSS variables to store breakpoints */
+$breakpoint-tablet: 768px;
+@media (max-width: $breakpoint-tablet) {
+
+  .container-fluid {
+
+    display: block !important;
+  }
+
+  
+
+  .px-5 {
+    padding-left: 5% !important;
+    padding-right: 5% !important;
+
+    margin: 0 !important;
+  }
+
+  .p-5 {
+    padding-left: 5% !important;
+    padding-right: 5% !important;
+
+    margin: 0 !important;
+  }
+
+  .px-4 {
+    padding-left: 3% !important;
+    padding-right: 3% !important;
+
+    margin: 0 !important;
+  }
+
+  .p-4 {
+    padding-left: 3% !important;
+    padding-right: 3% !important;
+
+    margin: 0 !important;
+  }
+  .p-3 {
+    padding-left: 2% !important;
+    padding-right: 2% !important;
+
+    margin: 0 !important;
+  }
+  .card {
+    margin-bottom: 20px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+
+  }
+
+
+
+  #buttonc {
+    display: flex !important;
+  }
+
+  .navbar-fixed-top, .navbar-fixed-bottom, .navbar-static-top {
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom:0;
+  }
+
+}
+
+
+
